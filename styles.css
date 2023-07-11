@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+.index-body {
+  background-image: url(./recipes/images/mae-mu.jpg);
+  background-size: 85% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Norse-Bold";
+  font-size: 5rem;
+}
+
+h3 {
+  color: #fff;
+  font-family: "Norse-Bold";
+  font-size: 3rem;
+}
+
+a {
+  margin: 10px;
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.odin-img {
+  width: 100px;
+}
+
+/* lasagna.html style */
+.recipe-title {
+  color: #000;
+  text-align: left;
+  font-size: 5rem;
+  margin-top: 20px;
+}
+
+.lasagna-container {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.lasagna-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Lasagna-content {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.Lasagna-content h3 {
+  font-size: 24px;
+}
+
+.Lasagna-content p {
+  font-size: 18px;
+}
+
+.Lasagna-content h4 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.Lasagna-content ul {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+.Lasagna-content li {
+  margin-bottom: 5px;
+}
+
+.Lasagna-content ol {
+  counter-reset: my-counter;
+  margin-left: 30px;
+}
+
+.Lasagna-content ol li {
+  counter-increment: my-counter;
+  margin-bottom: 5px;
+}
+
+.Lasagna-content ol li::before {
+  content: counter(my-counter) ". ";
+}
+
+.double-space li {
+  margin-bottom: 20px;
+}
+
+.recipe-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.recipe-content {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.recipe-container p {
+  margin-top: 20px;
+}
+
+/* Carbonara Style */
+.carbonara-title {
+  color: #000;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.carbonara-content {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.carbonara-content h3,
+.carbonara-content p {
+  margin: 10px;
+}
+
+.carbonara-content ul {
+  padding-left: 20px;
+}
+
+.carbonara-content ol {
+  padding-left: 20px;
+  counter-reset: step-counter;
+}
+
+.carbonara-content ol li {
+  list-style-type: none;
+  counter-increment: step-counter;
+  margin-bottom: 10px;
+}
+
+.carbonara-content ol li::before {
+  content: counter(step-counter) ".";
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.Carbonara-container {
+  display: flex;
+  justify-content: left;
+}
+
+.Carbonara-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mushroom Style */
+.mushroom-title {
+  color: #000;
+  text-align: left;
+  margin-top: 20px;
+}
